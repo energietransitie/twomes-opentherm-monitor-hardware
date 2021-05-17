@@ -1,0 +1,404 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Comparator_LM393
+#
+DEF Comparator_LM393 U 0 5 Y Y 3 L N
+F0 "U" 150 150 50 H V C CNN
+F1 "Comparator_LM393" 250 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS LM393
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+ DIP*W7.62mm*
+ SOP*5.28x5.23mm*P1.27mm*
+ VSSOP*3.0x3.0mm*P0.65mm*
+ TSSOP*4.4x3mm*P0.65mm*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 7 1 1 5 130 -20 110 -20 130 0 110 20 90 0 110 -20 90 -20 N
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 7 2 1 5 130 -20 110 -20 130 0 110 20 90 0 110 -20 90 -20 N
+X ~ 1 300 0 100 L 50 50 1 1 C
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X _ 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 C
+X V- 4 -100 -300 150 U 50 50 3 1 W
+X V+ 8 -100 300 150 D 50 50 3 1 W
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_01x02
+#
+DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_1N5819
+#
+DEF Diode_1N5819 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_1N5819" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS SB130 SB140 SB150 SB160 1N5817 1N5818 1N5819
+$FPLIST
+ D*DO?41*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Isolator_LTV-357T
+#
+DEF Isolator_LTV-357T U 0 40 Y Y 1 F N
+F0 "U" -210 190 50 H V L CNN
+F1 "Isolator_LTV-357T" 0 200 50 H V L CNN
+F2 "Package_SO:SO-4_4.4x3.6mm_P2.54mm" -200 -200 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS LTV-357T LTV-358T
+$FPLIST
+ SO*4.4x3.6mm*P2.54mm*
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 10 -125 -25 -75 -25 N
+P 2 0 1 0 100 25 175 100 N
+P 2 0 1 0 175 -100 100 -25 F
+P 2 0 1 0 175 -100 200 -100 N
+P 2 0 1 0 175 100 200 100 N
+P 3 0 1 0 -200 100 -100 100 -100 -30 N
+P 3 0 1 0 -100 -25 -100 -100 -200 -100 N
+P 3 0 1 20 100 75 100 -75 100 -75 N
+P 4 0 1 10 -100 -25 -125 25 -75 25 -100 -25 N
+P 5 0 1 0 -20 -20 30 -20 15 -25 15 -15 30 -20 N
+P 5 0 1 0 -20 20 30 20 15 15 15 25 30 20 N
+P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 300 -100 100 L 50 50 1 1 P
+X ~ 4 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# OpenThermMonitorTwomes-rescue_CONN_01X08
+#
+DEF OpenThermMonitorTwomes-rescue_CONN_01X08 P 0 40 Y N 1 F N
+F0 "P" 0 450 50 H V C CNN
+F1 "OpenThermMonitorTwomes-rescue_CONN_01X08" 100 0 50 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X08
+ Pin_Header_Angled_1X08
+ Socket_Strip_Straight_1X08
+ Socket_Strip_Angled_1X08
+$ENDFPLIST
+DRAW
+S -50 -400 50 400 0 1 0 N
+S -50 -345 10 -355 0 1 0 N
+S -50 -245 10 -255 0 1 0 N
+S -50 -145 10 -155 0 1 0 N
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 155 10 145 0 1 0 N
+S -50 255 10 245 0 1 0 N
+S -50 355 10 345 0 1 0 N
+X P1 1 -200 350 150 R 50 50 1 1 P
+X P2 2 -200 250 150 R 50 50 1 1 P
+X P3 3 -200 150 150 R 50 50 1 1 P
+X P4 4 -200 50 150 R 50 50 1 1 P
+X P5 5 -200 -50 150 R 50 50 1 1 P
+X P6 6 -200 -150 150 R 50 50 1 1 P
+X P7 7 -200 -250 150 R 50 50 1 1 P
+X P8 8 -200 -350 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_HT75xx-1-SOT89
+#
+DEF Regulator_Linear_HT75xx-1-SOT89 U 0 20 Y Y 1 F N
+F0 "U" -200 -150 50 H V L CNN
+F1 "Regulator_Linear_HT75xx-1-SOT89" 0 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-89-3" 0 325 50 H I C CIN
+F3 "" 0 100 50 H I C CNN
+$FPLIST
+ SOT?89*
+$ENDFPLIST
+DRAW
+S -200 200 200 -100 0 1 10 f
+X GND 1 0 -200 100 U 50 50 1 1 W
+X VIN 2 -300 100 100 R 50 50 1 1 W
+X VOUT 3 300 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_Push
+#
+DEF Switch_SW_Push SW 0 40 N N 1 F N
+F0 "SW" 50 100 50 H V L CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F2 "" 0 200 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-led_D_LED_0805_Blue
+#
+DEF jlcpcb-basic-led_D_LED_0805_Blue D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "jlcpcb-basic-led_D_LED_0805_Blue" 0 -100 50 H V C CNN
+F2 "LED_0805_1608Metric" 0 0 50 H I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Hubei-KENTO-Elec-Blue-light_C2293.pdf" 0 0 50 V I C CNN
+F4 "C2293" 0 0 50 V I C CNN "LCSC"
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-led_D_LED_0805_Red
+#
+DEF jlcpcb-basic-led_D_LED_0805_Red D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "jlcpcb-basic-led_D_LED_0805_Red" 0 -100 50 H V C CNN
+F2 "LED_0805_1608Metric" 0 0 50 H I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Foshan-NationStar-Optoelectronics-FC-2012HRK-620D_C84256.pdf" 0 0 50 V I C CNN
+F4 "C84256" 0 0 50 V I C CNN "LCSC"
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-mlcc-0603_100nF
+#
+DEF jlcpcb-basic-mlcc-0603_100nF C 0 10 N N 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "jlcpcb-basic-mlcc-0603_100nF" 25 -100 50 H V L CNN
+F2 "C_0603_1608Metric" 38 -150 50 H I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" 0 0 50 V I C CNN
+F4 "C14663" 0 0 50 V I C CNN "LCSC"
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-mlcc-0603_10uF
+#
+DEF jlcpcb-basic-mlcc-0603_10uF C 0 10 N N 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "jlcpcb-basic-mlcc-0603_10uF" 25 -100 50 H V L CNN
+F2 "C_0603_1608Metric" 38 -150 50 H I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf" 0 0 50 V I C CNN
+F4 "C19702" 0 0 50 V I C CNN "LCSC"
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-resistor-0603_10k
+#
+DEF jlcpcb-basic-resistor-0603_10k R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "jlcpcb-basic-resistor-0603_10k" 0 0 50 V V C CNN
+F2 "R_0603_1608Metric" -70 0 50 V I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1002T5E_C25804.pdf" 0 0 50 V I C CNN
+F4 "C25804" 0 0 50 V I C CNN "LCSC"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-resistor-0603_18k
+#
+DEF jlcpcb-basic-resistor-0603_18k R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "jlcpcb-basic-resistor-0603_18k" 0 0 50 V V C CNN
+F2 "R_0603_1608Metric" -70 0 50 V I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1802T5E_C25810.pdf" 0 0 50 V I C CNN
+F4 "C25810" 0 0 50 V I C CNN "LCSC"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-resistor-0603_1k
+#
+DEF jlcpcb-basic-resistor-0603_1k R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "jlcpcb-basic-resistor-0603_1k" 0 0 50 V V C CNN
+F2 "R_0603_1608Metric" -70 0 50 V I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF1001T5E_C21190.pdf" 0 0 50 V I C CNN
+F4 "C21190" 0 0 50 V I C CNN "LCSC"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-resistor-0603_33k
+#
+DEF jlcpcb-basic-resistor-0603_33k R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "jlcpcb-basic-resistor-0603_33k" 0 0 50 V V C CNN
+F2 "R_0603_1608Metric" -70 0 50 V I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF3302T5E_C4216.pdf" 0 0 50 V I C CNN
+F4 "C4216" 0 0 50 V I C CNN "LCSC"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-resistor-0603_4.7R
+#
+DEF jlcpcb-basic-resistor-0603_4.7R R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "jlcpcb-basic-resistor-0603_4.7R" 0 0 50 V V C CNN
+F2 "R_0603_1608Metric" -70 0 50 V I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF470KT5E_C23164.pdf" 0 0 50 V I C CNN
+F4 "C23164" 0 0 50 V I C CNN "LCSC"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# jlcpcb-basic-resistor-0603_470R
+#
+DEF jlcpcb-basic-resistor-0603_470R R 0 40 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "jlcpcb-basic-resistor-0603_470R" 0 0 50 V V C CNN
+F2 "R_0603_1608Metric" -70 0 50 V I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4700T5E_C23179.pdf" 0 0 50 V I C CNN
+F4 "C23179" 0 0 50 V I C CNN "LCSC"
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND1
+#
+DEF power_GND1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND1" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND1 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDC
+#
+DEF power_VDC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -100 50 H I C CNN
+F1 "power_VDC" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VDC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

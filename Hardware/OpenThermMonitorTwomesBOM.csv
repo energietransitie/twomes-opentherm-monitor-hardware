@@ -1,0 +1,19 @@
+Comment,Designator,Footprint,LCSC part #
+100nF,C1,Capacitor_SMD:C_0603_1608Metric,C14663
+10uF,C2,Capacitor_SMD:C_0603_1608Metric,C19702
+B5819W,"D1,D2,D3,D4,D5",Diode_SMD:D_SOD-123,C8598
+Blue Therm (Voltage),D6,LED_SMD:LED_0805_2012Metric,C2293
+Red Boiler (Current),D7,LED_SMD:LED_0805_2012Metric,C84256
+Boiler,J1,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+Therm,J2,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+CONN_01X08,"P1,P2",D1_mini:D1_mini_Pin_Header,
+4.7R,R1,Resistor_SMD:R_0603_1608Metric,C23164
+33k,R2,Resistor_SMD:R_0603_1608Metric,C4216
+10k,"R3,R9,R10",Resistor_SMD:R_0603_1608Metric,C25804
+18k,"R5,R6",Resistor_SMD:R_0603_1608Metric,C25810
+1k,R7,Resistor_SMD:R_0603_1608Metric,C21190
+470R,"R4,R8",Resistor_SMD:R_0603_1608Metric,C23179
+SW_Push,SW1,Button_Switch_SMD:SW_SPST_EVQP7C,C115361
+HT7550-1,U1,Package_TO_SOT_SMD:SOT-89-3,C16106
+LM393DR2G,U2,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,C7955
+EL357N(C),"U3,U4",Package_SO:SO-4_4.4x3.6mm_P2.54mm,C29981
