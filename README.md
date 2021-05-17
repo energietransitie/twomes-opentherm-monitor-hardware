@@ -12,7 +12,7 @@ Firmware and open hardware design files for the Twomes OpenTherm Monitor device
 * [Credits](#credits)
 
 ## General info
-This repository will soon contain firmware files and open hardware design files (e.g. schematics and board layout files) for the Twomes OpenTherm onotir device. Initially, the firmware will be developed as a branch for the [Twomes OpenTherm DIYLESS gateway](https://github.com/energietransitie/twomes-opentherm-gateway-diyless) firmware, until it is ripe for its own repository. Meanwhile, schematics and board layout files and instructions how to order SMD assembled versions may already appear in this repository.
+This repository will soon contain firmware files and open hardware design files (e.g. schematics and board layout files) for the Twomes OpenTherm monitor device. Initially, the firmware will be developed as a branch for the [Twomes OpenTherm DIYLESS gateway](https://github.com/energietransitie/twomes-opentherm-gateway-diyless) firmware, until it is ripe for its own repository. Meanwhile, schematics and board layout files and instructions how to order SMD assembled versions may already appear in this repository.
 
 ## Prerequisites
 Describe which (hardware and) software you need before you can deploy the software or develop with the source code. If the prerequisites are different for deploying users and developing users, you may want to move the prerequisites section as a subsection of each of those sections.
