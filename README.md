@@ -1,10 +1,13 @@
-# twomes-opentherm-gateway-monitor
-Firmware and open hardware design files for the Twomes OpenTherm Monitor device
+# Twomes OpenTherm Monitor Shield
+
+This repository contains the open hardware design files for the Twomes OpenTherm Monitor device, which can be used as a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html). 
+
+<img src="./front.jpg" width="400" height="400" /> <img src="./back.jpg" width="400" height="400" />
 
 ## Table of contents
 * [General info](#general-info)
 * [Prerequisites](#prerequisites)
-* [Deploying](#deploying)
+* [Producing](#producing)
 * [Developing](#developing) 
 * [Features](#features)
 * [Status](#status)
@@ -12,14 +15,31 @@ Firmware and open hardware design files for the Twomes OpenTherm Monitor device
 * [Credits](#credits)
 
 ## General info
-This repository will soon contain firmware files and open hardware design files (e.g. schematics and board layout files) for the Twomes OpenTherm monitor device. Initially, the firmware will be developed as a branch for the [Twomes OpenTherm DIYLESS gateway](https://github.com/energietransitie/twomes-opentherm-gateway-diyless) firmware, until it is ripe for its own repository. Meanwhile, schematics and board layout files and instructions how to order SMD assembled versions may already appear in this repository.
+This repository will soon contain the open hardware design files, such as schematics and board layout files for the Twomes OpenTherm monitor device.
+
+The associated firmwware that you can run on this device, please see another repository. Initially, the firmware will be developed as a branch for the [Twomes OpenTherm DIYLESS gateway](https://github.com/energietransitie/twomes-opentherm-gateway-diyless) firmware, until it is ripe for its own repository.
 
 ## Prerequisites
-Describe which (hardware and) software you need before you can deploy the software or develop with the source code. If the prerequisites are different for deploying users and developing users, you may want to move the prerequisites section as a subsection of each of those sections.
+Describe which hardware and software you need to produce and/or develop the hardawre. If the prerequisites are different for users that only wish to produce hardware versus uers that (also) wish to develop new versions of the hardware, you may want to move the prerequisites section as a subsection of each of those sections.
 
-## Deploying
-Describe how the reader can download and install the lastest installable version(s). If appropriate, link to the latest binary release or package you published in the repo. If needed, describe this for different platforms.
-Use steps if the procedure is non-trivial:
+## Producing
+
+Describe how the reader use the files contained in this repository to produce the PCB hardware and enclusure(s). 
+
+### Printed Ciruit Board
+Document how to order (small) series of PCBs from a PCB fabrication service, including SMT assembly if the design calls for it. Use steps if the procedure is non-trivial:
+1. first step;
+2. second step;
+3. final step.
+
+Format any scripts or commands in a way that makes them  easy to copy, like the following example. 
+
+Forgotten your Wi-Fi password? No problem with the follwing command, replacing `SSID` with the Wi-Fi name of your own Wi-Fi network: 
+```shell
+netsh wlan show profile SSID key=clear
+```
+### Enclosure
+Document how to print (small) series of enclosures, e.g. on a 3D printer, and/or how to order enclusures, e.g. from a 3D printing service. Use steps if the procedure is non-trivial:
 1. first step;
 2. second step;
 3. final step.
@@ -32,7 +52,7 @@ netsh wlan show profile SSID key=clear
 ```
 
 ## Developing
-Describe how the reader can use / adapt/ compile the souce code. 
+Describe how the reader can change or extend the harware design. 
 
 ## Features
 List of features ready and TODOs for future development. Ready:
@@ -50,18 +70,23 @@ To-do:
 Project is: _in progress_
 
 ## License
-The software in this reposotory is available under the [Apache 2.0 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
-The license for the hardware designs has not been determined yet. 
+The hardware in this reposotory is available under the [CERN-OHL-P v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
+
+`---or ---`
+
+The hardware in this reposotory is available under the [CERN-OHL-W v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
+
+`N.B. The license for the hardware designs has not been determined yet.` 
 
 ## Credits
-This software is a collaborative effort the following students and researchers:
+This open hardware design is a collaborative effort of:
 * <contributor name 1> ·  [@Github_handle_1](https://github.com/<github_handle_1>) ·  Twitter [@Twitter_handle_1](https://twitter.com/<twitter_handle_1>)
 * <contributor name 2> ·  [@Github_handle_2](https://github.com/<github_handle_2>) ·  Twitter [@Twitter_handle_2](https://twitter.com/<twitter_handle_2>)
 * <contributor name 3> ·  [@Github_handle_3](https://github.com/<github_handle_3>) ·  Twitter [@Twitter_handle_3](https://twitter.com/<twitter_handle_3>)
 * etc. 
 
 
-We use and gratefully aknowlegde the efforts of the makers of the following source code and libraries:
+We use and gratefully aknowlegde the efforts of the makers of the following designs:
 
 * [library name 1 and version](library 1 URL), by <copyright holder name 1>, licensed under [license 1 name](license1 URL)
 * [library name 2 and version](library 2 URL), by <copyright holder name 2>, licensed under [license 2 name](license2 URL)
