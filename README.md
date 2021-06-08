@@ -78,7 +78,7 @@ The hardware in this repository is available under the [CERN-OHL-P v2 license](.
 
 The hardware in this repository is available under the [CERN-OHL-W v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
 
-`N.B. Whether we apply the P(ermissive) or W(ealy raciprocal) variant of the CERN-OWH v2 licence for the hardware designs has not been determined yet. DO NOT make this repo public before we've decided the exact license.` 
+`N.B. Whether we apply the P(ermissive) or W(eakly raciprocal) variant of the CERN-OWH v2 licence for the hardware designs has not been determined yet. DO NOT make this repo public before we've decided the exact license.` 
 
 ## Credits
 This open hardware design is a collaborative effort of:
