@@ -1,8 +1,10 @@
 # Twomes OpenTherm Monitor Shield
 
-This repository contains the open hardware design files for the Twomes OpenTherm Monitor device, which can be used as a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html). The device is connected via one wire pair to a [boiler that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#boilers) and via another wire pair to a (thermostat that supports OpenTherm)[https://www.otgw.tclcode.com/matrix.cgi#thermostats]. 
+This repository contains the open hardware design files for the Twomes OpenTherm Monitor device, which can be used as a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
 
-This is device  is NOT a gateway; it only monitors OpenTherm traffic and cannot be used to insert OpenTherm commands to the boiler or thermostat.
+The OpenTherm Monitor Shield is connected via one wire pair to a [boiler that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#boilers) and via another wire pair to a [thermostat that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#thermostats). 
+
+This is device  is NOT an OpenThery gateway; it only monitors OpenTherm traffic and it cannot insert OpenTherm commands to the boiler or thermostat.
 
 <img src="./front.jpg" width="400" height="400" /> <img src="./back.jpg" width="400" height="400" />
 
