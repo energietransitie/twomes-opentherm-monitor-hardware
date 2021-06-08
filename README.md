@@ -6,7 +6,7 @@ The OpenTherm Monitor Shield is connected via one wire pair to a [boiler that su
 
 This is device  is NOT an OpenThery gateway; it only monitors OpenTherm traffic and it cannot insert OpenTherm commands to the boiler or thermostat.
 
-<img src="./front.jpg" width="400" height="400" /> <img src="./back.jpg" width="400" height="400" />
+<img src="./Hardware/front.jpg" width="400" height="400" /> <img src="./Hardware/back.jpg" width="400" height="400" />
 
 ## Table of contents
 * [General info](#general-info)
