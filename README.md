@@ -1,10 +1,8 @@
 # Twomes OpenTherm Monitor Shield hardware
 
-This repository contains the open hardware design files for the Twomes OpenTherm Monitor device, which can be used as a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
+This repository contains the open hardware design files for the Twomes OpenTherm Monitor device.
 
-The OpenTherm Monitor Shield is connected via one wire pair to a [boiler that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#boilers) and via another wire pair to a [thermostat that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#thermostats). 
-
-This is device  is NOT an OpenThery gateway; it only monitors OpenTherm traffic and it cannot insert OpenTherm commands to the boiler or thermostat.
+For the associated e firmware and pointers to binary releases for the Twomes OpenTherm Monitor, please see the [twomes-opentherm-monitor-firmware](https://github.com/energietransitie/twomes-opentherm-monitor-firmware) repository.
 
 <img src="./Hardware/front.jpg" width="400" height="400" /> <img src="./Hardware/back.jpg" width="400" height="400" />
 
@@ -19,9 +17,11 @@ This is device  is NOT an OpenThery gateway; it only monitors OpenTherm traffic 
 * [Credits](#credits)
 
 ## General info
-This repository will soon contain the open hardware design files, such as schematics and board layout files for the Twomes OpenTherm Monitor device.
+This repository will soon contain the open hardware design files, such as schematics and board layout files for the Twomes OpenTherm Monitor Shield:  a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), to be placed on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
 
-The associated firmwware that you can run on this device, please see another repository. Initially, the firmware will be developed as a branch for the [Twomes OpenTherm DIYLESS gateway](https://github.com/energietransitie/twomes-opentherm-gateway-diyless) firmware, until it is ripe for its own repository.
+The OpenTherm Monitor Shield is connected via one wire pair to a [boiler that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#boilers) and via another wire pair to a [thermostat that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#thermostats). 
+
+This is device  is NOT an OpenTherm gateway; it only monitors OpenTherm traffic and it cannot insert OpenTherm commands to the boiler or thermostat.
 
 ## Prerequisites
 Describe which hardware and software you need to produce and/or develop the hardawre. If the prerequisites are different for users that only wish to produce hardware versus uers that (also) wish to develop new versions of the hardware, you may want to move the prerequisites section as a subsection of each of those sections.
