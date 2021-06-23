@@ -17,7 +17,7 @@ For the associated e firmware and pointers to binary releases for the Twomes Ope
 * [Credits](#credits)
 
 ## General info
-This repository will soon contain the open hardware design files, such as schematics and board layout files for the Twomes OpenTherm Monitor Shield:  a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), to be placed on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
+This repository will soon contain the hardware designs, such as schematics and board layout files for the Twomes OpenTherm Monitor Shield:  a [WeMos D1 Mini shield](https://www.wemos.cc/en/latest/d1_mini_shield/index.html), to be placed on top of a WeMos D1 Mini board, such as the [LilyGO TTGO T7 Mini32 V1.3 ESP32](https://github.com/LilyGO/ESP32-MINI-32-V1.3), which is based on an ESP32 SoC, or the [Wemos LOLIN D1 mini](https://www.wemos.cc/en/latest/d1/d1_mini.html), which is based on an ESP8266 SoC. 
 
 The OpenTherm Monitor Shield is connected via one wire pair to a [boiler that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#boilers) and via another wire pair to a [thermostat that supports OpenTherm](https://www.otgw.tclcode.com/matrix.cgi#thermostats). 
 
@@ -74,13 +74,7 @@ To-do:
 Project is: _in progress_
 
 ## License
-The hardware in this repository is available under the [CERN-OHL-P v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
-
-`---or ---`
-
-The hardware in this repository is available under the [CERN-OHL-W v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
-
-`N.B. Whether we apply the P(ermissive) or W(eakly raciprocal) variant of the CERN-OWH v2 licence for the hardware designs has not been determined yet. DO NOT make this repo public before we've decided the exact license.` 
+The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE.md), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
 
 ## Credits
 This open hardware design is a collaborative effort of:
