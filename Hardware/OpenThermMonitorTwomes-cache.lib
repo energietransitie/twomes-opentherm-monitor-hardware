@@ -210,14 +210,14 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# jlcpcb-basic-mlcc-0603_100nF
+# jlcpcb-basic-mlcc-0603_10nF
 #
-DEF jlcpcb-basic-mlcc-0603_100nF C 0 10 N N 1 F N
+DEF jlcpcb-basic-mlcc-0603_10nF C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "jlcpcb-basic-mlcc-0603_100nF" 25 -100 50 H V L CNN
+F1 "jlcpcb-basic-mlcc-0603_10nF" 25 -100 50 H V L CNN
 F2 "C_0603_1608Metric" 38 -150 50 H I C CNN
-F3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf" 0 0 50 V I C CNN
-F4 "C14663" 0 0 50 V I C CNN "LCSC"
+F3 "https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf" 0 0 50 V I C CNN
+F4 "C57112" 0 0 50 V I C CNN "LCSC"
 DRAW
 P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N

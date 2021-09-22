@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\mw0057672\KiCad\OpenThermMonitorTwomes\OpenThermMonitorTwomes\OpenThermMonitorTwomes.sch</source>
-    <date>28-Apr-21 14:51:59</date>
+    <source>C:\Users\mw0057672\OneDrive - Windesheim Office365\Opleiding Elektrotechniek\Vakken\Lectoraat Energietransitie\TWomes\OrderJLCPCB\OpenThermMonitorTwomes\OpenThermMonitorTwomes.sch</source>
+    <date>22-Sep-21 10:29:32</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -166,13 +166,13 @@
       <tstamp>608B1F2D</tstamp>
     </comp>
     <comp ref="C1">
-      <value>100nF</value>
+      <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
       <fields>
-        <field name="LCSC">C14663</field>
+        <field name="C57112">C57112</field>
       </fields>
-      <libsource lib="jlcpcb-basic-mlcc-0603" part="100nF" description="100nF 50V 0603 RoHS"/>
+      <libsource lib="jlcpcb-basic-mlcc-0603" part="10nF" description="10nF 50V 0603 RoHS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6087E72A</tstamp>
     </comp>
@@ -199,13 +199,13 @@
       <tstamp>608FD274</tstamp>
     </comp>
     <comp ref="R8">
-      <value>470R</value>
+      <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF4700T5E_C23179.pdf</datasheet>
       <fields>
-        <field name="LCSC">C23179</field>
+        <field name="LCSC">C21190</field>
       </fields>
-      <libsource lib="jlcpcb-basic-resistor-0603" part="470R" description="470Ohms ±1% 1/10W 0603 RoHS"/>
+      <libsource lib="jlcpcb-basic-resistor-0603" part="1k" description="1KOhms ±1% 1/10W 0603 RoHS"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6090D18C</tstamp>
     </comp>
@@ -486,15 +486,15 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="jlcpcb-basic-mlcc-0603" part="100nF">
-      <description>100nF 50V 0603 RoHS</description>
-      <docs>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf</docs>
+    <libpart lib="jlcpcb-basic-mlcc-0603" part="10nF">
+      <description>10nF 50V 0603 RoHS</description>
+      <docs>https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf</docs>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">100nF</field>
+        <field name="Value">10nF</field>
         <field name="Footprint">C_0603_1608Metric</field>
-        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/YAGEO-CC0603KRX7R9BB104_C14663.pdf</field>
-        <field name="LCSC">C14663</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf</field>
+        <field name="LCSC">C57112</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -621,7 +621,7 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Isolator.lib</uri>
     </library>
     <library logical="OpenThermMonitorTwomes-rescue">
-      <uri>C:\Users\mw0057672\KiCad\OpenThermMonitorTwomes\OpenThermMonitorTwomes/OpenThermMonitorTwomes-rescue.lib</uri>
+      <uri>C:\Users\mw0057672\OneDrive - Windesheim Office365\Opleiding Elektrotechniek\Vakken\Lectoraat Energietransitie\TWomes\OrderJLCPCB\OpenThermMonitorTwomes/OpenThermMonitorTwomes-rescue.lib</uri>
     </library>
     <library logical="Regulator_Linear">
       <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>

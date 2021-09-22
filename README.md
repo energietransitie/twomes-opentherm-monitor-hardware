@@ -56,7 +56,7 @@ netsh wlan show profile SSID key=clear
 ```
 
 ## Developing
-Describe how the reader can change or extend the harware design. 
+Describe how the reader can change or extend the hardware design. 
 
 ## Features
 List of features ready and TODOs for future development. Ready:
@@ -73,6 +73,9 @@ To-do:
 ## Status
 Project is: _in progress_
 
+## Changes
+See file changes.txt in respective folders
+
 ## License
 The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE), Copyright 2021 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
 
@@ -84,7 +87,7 @@ This open hardware design is a collaborative effort of:
 * etc. 
 
 
-We use and gratefully aknowlegde the efforts of the makers of the following designs:
+We use and gratefully acknowlegde the efforts of the makers of the following designs:
 
 * [library name 1 and version](library 1 URL), by <copyright holder name 1>, licensed under [license 1 name](license1 URL)
 * [library name 2 and version](library 2 URL), by <copyright holder name 2>, licensed under [license 2 name](license2 URL)

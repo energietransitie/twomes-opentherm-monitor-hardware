@@ -1,0 +1,9 @@
+20210708 V1.0: M.Winkelman Twomes Windesheim
+Initial version. Optimized for JLCPCB basic parts
+________________________________________________________________________________________________________
+20210826 V1.1: M.Winkelman Twomes Windesheim
+Changes:  
+C1 from 100 nF to 10 nF to reduce rise time of VDC
+R8 from 470R to 1k to reduce current consumption blue voltage/therm/master LED (sufficient for EL357NC)
+Footprints same, still compatible with PCB 20210708 V1.0
+________________________________________________________________________________________________________
