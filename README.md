@@ -82,5 +82,5 @@ Thanks also go to:
 
 We use and gratefully acknowlegde the efforts of the makers of the following designs:
 
-* [KiCad Libraries](https://kicad.github.io/), by the KiCad Development Team, licensed under [adapted version of the CC-BY-SA 4.0 License](https://www.kicad.org/libraries/license/)
+* [KiCad Libraries](https://kicad.github.io/), by the KiCad Development Team, licensed under [an adapted version of the CC-BY-SA 4.0 License](https://www.kicad.org/libraries/license/)
 * [Opentherm-monitor](https://www.domoticaforum.eu/uploaded/bwired/Open-Termostaat.pdf). In <i>Elektuur, 7-8/2001, pp. 22-23.
