@@ -73,8 +73,12 @@ Project is: _in progress_
 The hardware designs in this repository are available under the [CERN-OHL-P v2 license](./LICENSE), Copyright 2022 [Research group Energy Transition, Windesheim University of Applied Sciences](https://windesheim.nl/energietransitie)
 
 ## Credits
-This open hardware design was made by:
+This open hardware design is a collaborative effort of:
 * Marco Winkelman · [@MarcoW71](https://github.com/MarcoW71)
+* Sjors Smit · [@Shorts1999](https://github.com/Shorts1999)
+
+Thanks also go to:
+* Henri ter Hofte · [@henriterhofte](https://github.com/henriterhofte) · Twitter [@HeNRGi](https://twitter.com/HeNRGi)
 
 We use and gratefully acknowlegde the efforts of the makers of the following designs:
 
