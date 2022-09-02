@@ -38,7 +38,7 @@ To fabricate the enclosure you can use your own 3D printer or use a 3D printing 
 
 <img src="./images/enclosure.jpg" height="600" />
 
-The folder [enclosure/fabrication](./enclosure/fabrication) contains exported STL files for the [case](./enclosure/fabrication/twomes-opentherm-monitor-enclosure-case.stl) and [lid](./enclosure/twomes-opentherm-monitor-enclosure-lid.step) of the Twomes OpenTherm Monitor. The STL files can be imported into any slicer and turned into G-Code for a 3D printer.
+The folder [enclosure/fabrication](./enclosure/fabrication) contains exported STL files for the [case](./enclosure/fabrication/twomes-opentherm-monitor-enclosure-case.stl) and [lid](./enclosure/twomes-opentherm-monitor-enclosure-lid.stl) of the Twomes OpenTherm Monitor. The STL files can be imported into any slicer and turned into G-Code for a 3D printer.
 
 ## Developing
 
